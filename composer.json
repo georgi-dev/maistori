@@ -1,0 +1,17 @@
+{
+    "name": "Maistori",
+    "description": "Maistori application",
+    "keywords": ["psr7"],
+    "homepage": "http://maistori.digitalvoivode.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anastas Dolushanov",
+            "email": "anastas@digitalvoivode.com",
+            "homepage": "http://www.digitalvoivode.com/"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}

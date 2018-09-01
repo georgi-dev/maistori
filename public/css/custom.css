@@ -1,0 +1,111 @@
+html, body {
+	font-size:16px;
+}
+
+
+/* New entry */
+.entry-container .form-group {
+	margin-bottom:0;
+}
+
+.entry-table-header {
+	display:flex;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ddd;
+}
+
+.entry-table-footer {
+	display:flex;
+	height:30px;
+	line-height:30px;
+}
+
+.entry-table-header div {
+	font-weight:700;
+	box-sizing:border-box;
+}
+
+.entry-table-row {
+	display:flex;
+	height:30px;
+	line-height:30px;
+	width:100%;
+	border-bottom:1px solid #ddd;
+}
+
+.entry-table-row button {
+	height:29px;
+	line-height:29px;
+	background:none;
+	border:none;
+	padding:0;
+	text-align:center;
+	padding-top:3px;
+	cursor:pointer;
+}
+
+.entry-table-num {
+	width:30px;
+	font-weight:700;
+}
+
+.entry-table-account {
+	width:15%;
+}
+
+.entry-table-notes {
+	width:25%;
+}
+
+.entry-table-dr, .entry-table-cr {
+	width:60px;
+	text-align:center;
+}
+
+.entry-table-dr input, .entry-table-cr input {
+	text-align:right;
+}
+
+.entry-table-refs {
+	flex-grow:1;
+}
+
+.entry-table-manage {
+	width:30px;
+}
+
+.entry-table-content input, .entry-table-content select {
+	height:30px;
+	line-height:30px;
+	background:none;
+	border:none;
+}
+
+.entry-table-content input:focus, .entry-table-content select:focus {
+	background:#dfd;
+}
+
+.entry-table-spacer1 {
+	width:calc(30px + 40%);
+}
+
+.entry-table-spacer2 {
+	width:calc(90px + 40%);
+}
+
+.subaccount {
+	background:#dfd !important;
+	width:80px;
+}
+
+
+/* Fixes */
+.jumbotron {
+	padding-top:32px;
+}
+
+.td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
